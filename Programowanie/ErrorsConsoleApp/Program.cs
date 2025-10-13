@@ -269,6 +269,10 @@ void ErrorsV8()
             Console.WriteLine($"Błąd: {ex.Message}");
             dalej = false;
         }
+        finally
+        {
+            Console.WriteLine("Koniec obliczeń");
+        }
 
     } while (!dalej);
 }
