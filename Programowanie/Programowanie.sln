@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 18
-VisualStudioVersion = 18.3.11222.16 d18.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FirstConsoleApplication", "FirstConsoleApplication\FirstConsoleApplication.vcxproj", "{403EED5E-0FD4-4027-B40C-6B0B5B632FCC}"
 EndProject
@@ -90,6 +90,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismConsoleApp", "PolymorphismConsoleApp\PolymorphismConsoleApp.csproj", "{5A6E98A5-4D2E-4A78-A92A-E22043AE5145}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTypesConsoleApp", "GenericTypesConsoleApp\GenericTypesConsoleApp.csproj", "{76F1A1C1-1FF2-44A2-B250-78FCE02F22E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsConsoleApp", "CollectionsConsoleApp\CollectionsConsoleApp.csproj", "{F8253358-D858-46AB-BB02-60C2684FF081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqConsoleApp", "LinqConsoleApp\LinqConsoleApp.csproj", "{BE0E0234-EF39-4211-A14B-506B188FD815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -473,6 +477,30 @@ Global
 		{76F1A1C1-1FF2-44A2-B250-78FCE02F22E0}.Release|x64.Build.0 = Release|Any CPU
 		{76F1A1C1-1FF2-44A2-B250-78FCE02F22E0}.Release|x86.ActiveCfg = Release|Any CPU
 		{76F1A1C1-1FF2-44A2-B250-78FCE02F22E0}.Release|x86.Build.0 = Release|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Debug|x64.Build.0 = Debug|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Debug|x86.Build.0 = Debug|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Release|x64.ActiveCfg = Release|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Release|x64.Build.0 = Release|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Release|x86.ActiveCfg = Release|Any CPU
+		{F8253358-D858-46AB-BB02-60C2684FF081}.Release|x86.Build.0 = Release|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|x64.Build.0 = Release|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -520,6 +548,8 @@ Global
 		{5EC045E1-AA64-48D7-8F4C-9EA69BFD45F2} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
 		{5A6E98A5-4D2E-4A78-A92A-E22043AE5145} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
 		{76F1A1C1-1FF2-44A2-B250-78FCE02F22E0} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
+		{F8253358-D858-46AB-BB02-60C2684FF081} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
+		{BE0E0234-EF39-4211-A14B-506B188FD815} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CF49382-092A-4027-8546-0283784F7F1B}
