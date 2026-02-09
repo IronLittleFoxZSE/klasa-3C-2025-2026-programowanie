@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsConsoleApp", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqConsoleApp", "LinqConsoleApp\LinqConsoleApp.csproj", "{BE0E0234-EF39-4211-A14B-506B188FD815}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPracticalTasksConsoleApp", "LinqPracticalTasksConsoleApp\LinqPracticalTasksConsoleApp.csproj", "{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -501,6 +503,18 @@ Global
 		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|x64.Build.0 = Release|Any CPU
 		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|x86.ActiveCfg = Release|Any CPU
 		{BE0E0234-EF39-4211-A14B-506B188FD815}.Release|x86.Build.0 = Release|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Debug|x64.Build.0 = Debug|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Debug|x86.Build.0 = Debug|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Release|x64.ActiveCfg = Release|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Release|x64.Build.0 = Release|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Release|x86.ActiveCfg = Release|Any CPU
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -550,6 +564,7 @@ Global
 		{76F1A1C1-1FF2-44A2-B250-78FCE02F22E0} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
 		{F8253358-D858-46AB-BB02-60C2684FF081} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
 		{BE0E0234-EF39-4211-A14B-506B188FD815} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
+		{3CD28C89-F57E-4FD6-9D74-C672F000D2E2} = {CF40E388-E699-4E44-B6AF-9CF66E15B555}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CF49382-092A-4027-8546-0283784F7F1B}
