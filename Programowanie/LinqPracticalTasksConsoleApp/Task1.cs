@@ -43,7 +43,6 @@ namespace LinqPracticalTasksConsoleApp;
 == POZIOM 3 – ZAAWANSOWANY ==
 ========================================
 
-21. Wypisz unikalne umiejêtnoœci wszystkich osób posortowane alfabetycznie.
 22. ZnajdŸ osoby, które maj¹ skill "C#".
 23. ZnajdŸ osoby, które maj¹ co najmniej trzy skille.
 24. ZnajdŸ osoby z Warszawy, posortuj je po wieku malej¹co i wypisz tylko ich imiê, nazwisko, wiek i pensjê.
@@ -52,17 +51,14 @@ namespace LinqPracticalTasksConsoleApp;
 27. ZnajdŸ osobê o najwiêkszej pensji.
 28. ZnajdŸ osobê o najmniejszej pensji.
 29. Wypisz osoby, które maj¹ taki sam wiek jak najstarsza osoba.
-30. Wypisz miasta wraz z liczb¹ osób pochodz¹cych z ka¿dego miasta.
 
 
 ========================================
 == POZIOM 4 – EKSTRA / DLA CHÊTNYCH ==
 ========================================
 
-31. ZnajdŸ osoby, które maj¹ identyczny zestaw skilli.
 32. Posortuj osoby wed³ug liczby posiadanych skilli.
 33. Podziel osoby na dwie listy: zarabiaj¹cych przynajmniej 8000 oraz zarabiaj¹cych mniej ni¿ 8000.
-34. ZnajdŸ osoby, które mieszkaj¹ w najczêœciej wystêpuj¹cym mieœcie.
 35. Przyporz¹dkuj ka¿d¹ osobê do przedzia³u wiekowego (np. 20–29, 30–39, 40–49) i wypisz osoby z ka¿dego przedzia³u.
 
 */
