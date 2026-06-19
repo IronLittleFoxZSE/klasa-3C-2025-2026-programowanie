@@ -19,7 +19,6 @@ namespace LinqConsoleApp
         public string City { get; init; } = default!;
         public decimal Salary { get; init; }
         public List<string> Skills { get; init; } = new();
-
         public override string ToString() 
             => $"{Id}: {FirstName} {LastName}, {Age} lat, {Gender}, {City}, {Salary:C0}, Skills=[{string.Join(", ", Skills)}]";
     }
