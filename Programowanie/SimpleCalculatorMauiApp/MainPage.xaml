@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="SimpleCalculatorMauiApp.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Prosty kalkulator">
+
+    <StackLayout Padding="30,0" Spacing="25">
+        <Label Background="#E61B1B"
+               BackgroundColor="#F7921B"
+               FontAttributes="Bold"
+               FontFamily="Arial"
+               FontSize="20"
+               Text="Podaj pierwszą liczbę" />
+        <Entry x:Name="firstNumberEntry" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Podaj drugą liczbę" VerticalTextAlignment="Center" />
+            <Entry x:Name="secondNumberEntry" BackgroundColor="Aqua" />
+        </StackLayout>
+        <Button Clicked="Button_Clicked" Text="Oblicz" />
+        <Label x:Name="resultLabel" />
+
+    </StackLayout>
+
+</ContentPage>
